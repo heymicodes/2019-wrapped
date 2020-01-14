@@ -3,11 +3,324 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+
     <title>2019 Wrapped</title>
 </head>
 
 <body>
+    <header class="header">
+        <div class="logo">
+            heymi
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="section-intro bg-black">
+            <div class="year">2019</div>
+            <div class="intro">
+                <div class="intro__text">
+                    <!-- default text color is pink-->
+                    <span class="text-yellow">2020</span>
+                    <span class="">vient de</span>
+                    <span class="text-blue">commencer !</span>
+                    <span class="">Prêt.e à faire</span>
+                    <span class="text-white">le bilan de l'année</span>
+                    <span class="text-orange">ensemble ?</span>
+                </div>
+                <button class="start">C'est parti</button>
+            </div>
+        </section>
+
+        <section class="section-seasons">
+            <p class="text-main">En 2019, le code a rythmé mes saisons...</p>
+
+            <div class="season bg-yellow">
+                <p class="season__name">Hiver</p>
+                <div class="season__illu"></div>
+            </div>
+            <div class="season bg-pink">
+                <p class="season__name">Printemps</p>
+                <div class="season__illu"></div>
+            </div>
+            <div class="season bg-blue">
+                <p class="season__name">Eté</p>
+                <div class="season__illu"></div>
+            </div>
+            <div class="season bg-orange">
+                <p class="season__name">Automne</p>
+                <div class="season__illu"></div>
+            </div>
+        </section>
+
+        <section class="section-fav bg-pink">
+            <p class="text-main">Un langage a eu la chance d’être mon n°1</p>
+            <div class="illu">
+                PHP
+                <p>Découverte de Laravel et Lumen (heart emoji ?)</p>
+            </div>
+        </section>
+
+        <!-- TO DO -->
+        <section class="section-favs bg-pink">
+            <p class="text-main">Mais je n'ai pas eu qu'un seul favoris...</p>
+            <div class="fav-item">
+                <div class="frame">
+                    <img src="" alt="" srcset="">
+                </div>
+                <h2 class="fav-item__title">
+                    1
+                    <span>Javascript</span>
+                </h2>
+            </div>
+            <div class="fav-item">
+                <div class="frame">
+                    <img src="" alt="" srcset="">
+                </div>
+                <h2 class="fav-item__title">
+                    2
+                    <span>Lumen</span>
+                </h2>
+            </div>
+            <div class="fav-item">
+                <div class="frame">
+                    <img src="" alt="" srcset="">
+                </div>
+                <h2 class="fav-item__title">
+                    3
+                    <span>Laravel</span>
+                </h2>
+            </div>
+        </section>
+
+        <section class="section-projects bg-blue">
+            <h1 class="title">Hello World!</h1>
+            <p class="text-main">Cette année fut riche en apprentissage et projets</p>
+
+            <div class="pagination-arrows">
+                <div class="arrow arrow--right"></div>
+                <div class="arrow arrow--left"></div>
+            </div>
+
+            <div class="project">
+                <!-- pseudo-element for yellow circle-->
+                <div class="frame">
+                    <img src="" alt="" srcset="">
+                </div>
+                <h2 class="fav-item__title">
+                    1
+                    <span>oQuiz</span>
+                    <span class="tags">#front #back #lumen</span>
+                </h2>
+                <p class="project__description">
+                    Quiz, inscription, connexion, espace admin !
+                    Un projet front et back réalisé en solo.
+                </p>
+
+            </div>
+            <div class="project">
+                <!-- pseudo-element for yellow circle-->
+                <div class="frame">
+                    <img src="" alt="" srcset="">
+                </div>
+                <h2 class="fav-item__title">
+                    2
+                    <span>Blague de Merge</span>
+                    <span class="tags">#front #js</span>
+                </h2>
+                <p class="project__description">
+                    Un clic, une blague.
+                    Inspiré par developerexcuses.com
+                </p>
+            </div>
+            <div class="project">
+                <!-- pseudo-element for yellow circle-->
+                <div class="frame">
+                    <img src="" alt="" srcset="">
+                </div>
+                <h2 class="fav-item__title">
+                    3
+                    <span>Tindev</span>
+                    <span class="tags">#front #sass #ui #ux</span>
+                </h2>
+                <p class="project__description">
+                    Un CV sous forme d'appli de rencontre.
+                    Maquette et code maison ! 
+                </p>
+            </div>
+        </section>
+
+        <section class="section-chart bg-yellow">
+            <h1 class="title">Toujours plus !</h1>
+            <p class="text-main">Me limiter à un type de projet? Non, merci.</p>
+            
+            <div class="chart chart--front">
+                <div class="bar"></div>
+                <p class="legend">Front</p>
+            </div>
+            <div class="chart chart--back">
+                <div class="bar"></div>
+                <p class="legend">Back</p>
+            </div>
+            <div class="chart chart--both">
+                <div class="bar"></div>
+                <p class="legend">Les 2</p>
+            </div>
+            <div class="chart chart--stackoverflow">
+                <div class="bar"></div>
+                <p class="legend">Stackoverflow</p>
+            </div>
+            <p class="tags">#fullStackOverflowDeveloper</p>
+        </section>
+
+        <section class="section-bridge bg-black">
+            <div class="">
+                <!-- default text color is pink-->
+                <span class="text-yellow">2019,</span>
+                <span class="">c'est des projets</span>
+                <span class="text-blue">des bugs</span>
+            </div>
+            <div class="">
+                <span class="text-white">des rencontres</span>
+                <span class="">Mais aussi</span>
+                <span class="text-orange">...</span>
+            </div>
+        </section>
+
+        <section class="section-figures">
+            <div class="key-figure bg-blue">
+                <h1>
+                    5
+                    <span>mois de formation</span>
+                </h1>
+                <p class="subtext">
+                    Soit 700h de formation !
+                </p>
+                <p class="tags">
+                    #oclock #promoUniverse #poei #yeswedev
+                </p>
+            </div>
+            <div class="key-figure bg-yellow">
+                <h1>
+                    4
+                    <span>tasse de thé par jour</span>
+                </h1>
+                <p class="subtext">
+                    Minimum ! Avec le pain d'épices qui va bien.
+                </p>
+                <p class="tags">
+                    #teamThé #addiction #iTurnTheIntoCode
+                </p>
+            </div>
+            <div class="key-figure bg-orange">
+                <h1>
+                    3
+                    <span></span>
+                </h1>
+                <p class="subtext">
+                   en tant que dev junior!
+                </p>
+                <p class="tags">
+                    #POEI #YesWeDev #WebDev
+                </p>
+            </div>
+            <div class="key-figure bg-blue">
+                <h1>
+                    2
+                    <span>certifications</span>
+                </h1>
+                <p class="subtext">
+                    Toujours plus loin dans la qualité web !
+                </p>
+                <p class="tags">
+                    #Opquast #niveauAvancé #FondamentauxMkgNum
+                </p>
+            </div>
+            <div class="key-figure bg-yellow">
+                <h1>
+                    1
+                    <span>projet pro</span>
+                </h1>
+                <p class="subtext">
+                    Premier projet pour l'entreprise !
+                </p>
+                <p class="tags">
+                    #YesWeDev #juniorWebDev #teamWork
+                </p>
+            </div>
+        </section>
+
+        <section class="section-final bg-black">
+            <h1 class="title">Cette année fut <span id="">intense</span></h1>
+            <p class="text-main">Me limiter à un type de projet? Non, merci.</p>
+            
+            <div class="contact">
+                <h2>Suivez-moi</h2>
+                <p>pour voir ce que je vous réserve pour 2020 !</p>
+
+                <div class="contact__links">
+                    <div class="link">
+                        <a href="#">
+                            <img src="" alt="">
+                        </a>
+                    </div>
+                    
+                    <div class="link">
+                        <a href="#">
+                            <img src="" alt="">
+                        </a>
+                    </div>
+
+                    <div class="link">
+                        <a href="#">
+                            <img src="" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <div class="credits bg-black">
+        <ul>
+            <li><a href="#">Spotify</a> - Inspiration</li>
+            <li><a href="#">Font Awesome</a> - Pour les icones</li>
+        </ul>
+    </div>
+
+    <div class="info bg-black">
+        Ce projet s'est fortement inspiré du Spotify Year Wrapped.
+        Le Year Wrapped rassemble des données sur la consomation de musique de l'utilisateur
+        et le retransmet de manière ludique et colorée.
+
+        J'ai don eu l'idée de faire la même chose pour ma première année dans le dev.
+
+        J'espère reproduire l'exercice chaque année, et pourquoi améliorer le projet en
+        récupérent les données via l'API de gitHub.
+    </div>
+
+    <div class="about">
+        Je m'appelle Amy (Heymi pour certains).
+        Début 2019, j'ai décidé de troquer ma tablette graphique 👩🏾‍🎨  contre un clavier mécanique 👩🏾‍💻✨
+        En juin, j'ai suivi une formation intensive en développement web et web mobile au sein d'O'clock.
+        Depuis novembre, je'occupe le poste de développeuse web au sein de YesWeDev, en Bretagne.
+
+
+    </div>
+    <footer class="footer">
+        <div class="pagination">
+            <span id="" class="chevron chevron--up"></span>
+            <span class="page-count"></span>
+            <span id="" class="chevron chevron--down"></span>
+        </div>
+        <div class="credits">
+            2019 Wrapped - Web Dev Edition
+            Projet | Crédits | A propos
+        </div>
+    </footer>
     <script src="js/main.js"></script>
 </body>
 </html>
