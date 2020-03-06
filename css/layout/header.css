@@ -1,0 +1,10 @@
+.header {
+	position: absolute;
+	left: 0;
+	right: 0;
+	padding: 2.4rem 0 1rem;
+}
+
+.header .logo {
+	font-size: 1.8rem;
+}

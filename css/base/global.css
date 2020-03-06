@@ -1,0 +1,61 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	font-family: "DM Sans", sans-serif;
+	font-size: 1.8rem;
+	color: #171717;
+	background-color: #000000;
+	overflow: hidden;
+}
+
+.wrapped {
+	width: 95%;
+	max-width: 1170px;
+	margin: auto;
+}
+
+@media all and (min-width: 768px) {
+	.wrapped {
+		width: 75%;
+	}
+}
+
+@media all and (min-width: 1280px) {
+	.wrapped {
+		width: 65%;
+	}
+}
+
+.main {
+	height: 100%;
+}
+
+
+.is-hidden {
+	display: none !important;
+}
+
+/*** Backgrounds *************************/
+.bg-primary {
+	background-color: #ee209c;
+}
+
+.bg-secondary {
+	background-color: #ffc411;
+}
+
+.bg-tertiary {
+	background-color: #52c2db;
+}
+
+.bg-quaternary {
+	background-color: #fa630e;
+}

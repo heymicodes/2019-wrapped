@@ -1,0 +1,30 @@
+.pagination {
+	position: absolute;
+	bottom: 3.2rem;
+	left: 2.5%;
+	z-index: 99;
+}
+
+@media all and (min-width: 768px) {
+	.pagination {
+		left: 12.5%;
+	}
+}
+
+@media all and (min-width: 1280px) {
+	.pagination {
+		left: 17.5%;
+	}
+}
+
+.pagination button {
+	display: block;
+	margin: auto;
+	color: inherit;
+}
+
+.pagination .page-count {
+	font-size: 1.4rem;
+	text-align: center;
+	margin: 1em 0.5em;
+}

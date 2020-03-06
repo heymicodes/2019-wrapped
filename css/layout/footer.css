@@ -1,0 +1,26 @@
+.nav {
+	position: absolute;
+	bottom: 0;
+	left: -1.6rem;
+	right: 0;
+	font-size: 1.4rem;
+	color: #ee209c;
+}
+
+.nav__list {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-pack: center;
+	justify-content: center;
+	padding: 1.6rem;
+}
+
+.nav__item {
+	margin-left: 1.6rem;
+	cursor: pointer;
+}
+
+.nav__item:not(:last-child):after {
+	content: '|';
+	margin-left: 1.6rem;
+}
