@@ -1,0 +1,26 @@
+.slick-dots {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-pack: center;
+	justify-content: center;
+	margin: 2.4rem auto 0;
+}
+
+.slick-dots .slick-active {
+	background-color: #ee209c;
+}
+
+.slick-dots li {
+	width: 1.5rem;
+	height: 1.5rem;
+	margin-right: 1rem;
+	border: 2px solid #ee209c;
+	border-radius: 50%;
+	color: #ee209c;
+	background-color: transparent;
+}
+
+.slick-dots li button {
+	color: transparent;
+	background-color: transparent;
+}
