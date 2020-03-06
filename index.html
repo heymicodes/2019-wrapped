@@ -1,24 +1,28 @@
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans:700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/main.css">
 
     <title>2019 Wrapped</title>
 </head>
 
 <body>
     <header class="header wrapped">
-        <h1 class="logo">heymi</h1>
+        <a href="/" class="logo">heymi</a>
     </header>
     
     <main class="main">
         <section class="section section--intro">
             <div class="wrapped">
-                <p class="year" data-count="2019">0</p>
+                <p class="year" data-count="2019">2019</p>
                 <div class="intro-text is-hidden">
                     <p>
                         <span class="text-secondary">2020</span>
@@ -145,17 +149,17 @@
         <section class="section section--projects bg-tertiary is-hidden">
             <div class="wrapped">
                 <h2 class="title">Hello World!</h2>
-                <p class="subtitle">Cette année fut riche en apprentissage et projets</p>
+                <p class="subtitle">Cette année fut riche en apprentissage et en projets.</p>
             </div>
             <div class="wrapped">
                 <ul id="carousel-project" class="carousel carousel--project">
                     <li class="project">
                         <div class="project__image">
                             <div class="frame">
-                                <img src="" alt="" srcset="">
+                                <img src="https://drive.google.com/uc?export=view&id=1AmkNfeniYT_1ikrkATZUWyOl1S8I9wM7" alt="oQuiz">
                             </div>
                             <div class="frame frame--logo">
-                                <img src="" alt="" srcset="">
+                                oQuiz
                             </div>
                         </div>
                         <h3 class="project__title">
@@ -165,17 +169,17 @@
                         <p class="project__tags">#front #back #lumen</p>
                         <p class="project__description">
                             Quiz, inscription, connexion, espace admin !
-                            Un projet front et back réalisé en solo.
+                            Un projet front et back, réalisé en solo.
                         </p>
                     </li>
     
                     <li class="project">
                         <div class="project__image">
                             <div class="frame">
-                                <img src="" alt="" srcset="">
+                                <img src="https://drive.google.com/uc?export=view&id=1QDnerhZT_-j-RvBLlA8aY7dqcNIzPL_3" alt="Tindev">
                             </div>
                             <div class="frame frame--logo">
-                                <img src="" alt="" srcset="">
+                                Tindev
                             </div>
                         </div>
                         <h3 class="project__title">
@@ -192,10 +196,10 @@
                     <li class="project">
                         <div class="project__image">
                             <div class="frame">
-                                <img src="" alt="" srcset="">
+                                <img src="https://drive.google.com/uc?export=view&id=1UpwHNXEi0ku8jIml_HnfzAYkWo8Hmk8C" alt="Blague de merge">
                             </div>
                             <div class="frame frame--logo">
-                                <img src="" alt="" srcset="">
+                                BDM
                             </div>
                         </div>
                         <h3 class="project__title">
@@ -215,26 +219,21 @@
         <section class="section section--chart bg-secondary is-hidden">
             <div class="wrapped">
                 <h2 class="title">Toujours plus !</h2>
-                <p class="subtitle">Me limiter à un type de projet? Non, merci.</p>
+                <p class="subtitle">Me limiter à un type de projet ? Non, merci.</p>
             </div>
             <div class="wrapped">
-                <div class="bar bar--front">
-                    <div class="bar__elem"></div>
-                    <p class="bar__title">Front</p>
+                <div class="graph">
+                        <div class="bar bar--front"></div>
+                        <div class="bar bar--back"></div>
+                        <div class="bar bar--both"></div>
+                        <div class="bar"></div>
                 </div>
-                <div class="bar bar--back">
-                    <div class="bar__elem"></div>
-                    <p class="bar__title">Back</p>
+                <div class="graph-tags">
+                    <span>Front</span>
+                    <span>Back</span>
+                    <span>Les 2</span>
+                    <span>Stack<br>Overflow</span>
                 </div>
-                <div class="bar bar--both">
-                    <div class="bar__elem"></div>
-                    <p class="bar__title">Les 2</p>
-                </div>
-                <div class="bar bar--stackover">
-                    <div class="bar__elem"></div>
-                    <p class="bar__title">StackOverflow</p>
-                </div>
-    
                 <p class="tags">#fullStackOverflowDeveloper</p>
             </div>
         </section>
@@ -259,7 +258,7 @@
             <div class="wrapped">
                 <ul id="carousel-figure" class="carousel carousel--figure">
                     <li class="key-figure">
-                        <h2 class='key-figure__title'>
+                        <h2 class="key-figure__title">
                             5
                             <span>mois de formation</span>
                         </h2>
@@ -272,7 +271,7 @@
                     </li>
     
                     <li class="key-figure">
-                        <h2 class='key-figure__title'>
+                        <h2 class="key-figure__title">
                             4
                             <span>tasses de thé par jour</span>
                         </h2>
@@ -285,7 +284,7 @@
                     </li>
     
                     <li class="key-figure">
-                        <h2 class='key-figure__title'>
+                        <h2 class="key-figure__title">
                             3
                             <span>mois</span>
                         </h2>
@@ -298,7 +297,7 @@
                     </li>
     
                     <li class="key-figure">
-                        <h2 class='key-figure__title'>
+                        <h2 class="key-figure__title">
                             2
                             <span>certifications</span>
                         </h2>
@@ -311,7 +310,7 @@
                     </li>
     
                     <li class="key-figure">
-                        <h2 class='key-figure__title'>
+                        <h2 class="key-figure__title">
                             1
                             <span>premier projet</span>
                         </h2>
@@ -329,26 +328,33 @@
         <section class="section section--outro is-hidden">
             <div class="wrapped">
                 <h2 class="title">Cette année fut <span id="" class="text-tertiary">intense</span></h2>
-                <p class="subtitle">Et 2020 le sera encore plus</p>
+                <p class="subtitle">Et 2020 le sera encore plus !</p>
             </div>
-            <div class="wrapper">
-                <h3 class="text-primary">Suivez-moi</h3>
+            <div class="social wrapped">
+                <h3>Suivez-moi</h3>
                 <p>pour voir ce que je vous réserve pour 2020 !</p>
     
-                <div class="social__links">
-                    <div class="link btn btn--social">
-                        <a href="#">in</a>
-                    </div>
+                <ul class="social__links">
+                    <li class="link btn btn--social">
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </li>
     
-                    <div class="link btn btn--social">
-                        <a href="#"></a>
-                    </div>
+                    <li class="link btn btn--social">
+                        <a href="#"><i class="fa fa-codepen"></i></a>
+                    </li>
     
-                    <div class="link btn btn--social">
-                        <a href="#"></a>
-                    </div>
-                </div>
+                    <li class="link btn btn--social">
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                </ul>
             </div>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li data-section="credits" class="nav__item">Crédits</li>
+                    <li data-section="about-project" class="nav__item">Projet</li>
+                    <li data-section="about-me" class="nav__item">A propos</li>
+                </ul>
+            </nav>
         </section>
     </main>
     
@@ -356,7 +362,9 @@
         <button id="btn-prev">
             <i class="fa fa-chevron-up"></i>
         </button>
-        <span class="page-count">1/5</span>
+        <div class="page-count">
+            1/7
+        </div>
         <button id="btn-next">
             <i class="fa fa-chevron-down"></i>
         </button>
@@ -365,13 +373,13 @@
     <footer class="footer is-hidden">
         <nav class="footer__nav">
             <ul class="nav">
-                <li class="nav__item">Crédits</li>
-                <li class="nav__item">Projet</li>
-                <li class="nav__item">A propos</li>
+                <li data-section="credits" class="nav__item">Crédits</li>
+                <li data-section="about-project" class="nav__item">Projet</li>
+                <li data-section="about-me" class="nav__item">A propos</li>
             </ul>
         </nav>
     
-        <section class="section section--credits is-hidden">
+        <section id="credits" class="section section--credits is-hidden">
             <ul>
                 <li><a href="https://www.spotify.com/wrapped">Spotify</a> - Inspiration</li>
                 <li><a href="https://fontawesome.com/">Font Awesome</a> - Icones</li>
@@ -379,7 +387,7 @@
             </ul>
         </section>
     
-        <section class="section section--info is-hidden">
+        <section id="about-project" class="section section--info is-hidden">
             <p>
                 Ce projet est basé sur le Year Wrapped de <a href="https://www.spotify.com/">Spotify</a>. Le but est de rassembler des données sur la consommation de musicale de l'utilisateur et le les retransmettre de manière digeste et colorée.
             </p>
@@ -395,7 +403,7 @@
             </p>
         </section>
     
-        <section class="section section--about is-hidden">
+        <section id="about-me" class="section section--about is-hidden">
             <p>Je m'appelle Amy (ou <span class='text-primary'>Heymi</span> pour certains).</p>
             <p>Début 2019, j'ai décidé de troquer ma tablette graphique 👩🏾‍🎨  contre un clavier mécanique 👩🏾‍💻✨</p>
             <p>En juin, j'ai suivi une formation intensive en développement web et web mobile au sein d'<a href="https://oclock.io/">O'clock</a>.</p>
@@ -403,7 +411,10 @@
         </section>
           
     </footer>
-    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/tilt.js@1.1.19/dest/tilt.jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
