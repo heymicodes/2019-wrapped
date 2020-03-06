@@ -1,0 +1,13 @@
+@import url("base/reset.css");
+@import url("base/typography.css");
+@import url("base/global.css");
+
+@import url("layout/header.css");
+@import url("layout/footer.css");
+@import url("layout/section.css");
+
+@import url("components/button.css");
+@import url("components/carousel.css");
+@import url("components/pagination.css");
+
+@import url("vendors/slick.css");
