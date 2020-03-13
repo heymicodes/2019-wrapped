@@ -1,7 +1,3 @@
-//import countUp from '/countup.js';
-//import navigate from '/navigate.js';
-//import tilt from '/tilt.js';
-
 $(document).ready(function() {
 	countUp.init();
 	navigate.init();
@@ -163,5 +159,20 @@ var carousel = {
 			$('#carousel-season').slick('unslick');
 			$('#carousel-project').slick('unslick');
 			$('#carousel-figure').slick('unslick');
+	},
+};
+
+var tilt = {
+	init: function() {
+		tilt.introText();
+	},
+	introText: function() {
+		$(".intro-text").tilt({
+    maxTilt: 25,
+    perspective: 1400,
+    easing: "cubic-bezier(.03,.98,.52,.99)",
+    speed: 1200,
+    scale: 1,
+  });
 	},
 };
